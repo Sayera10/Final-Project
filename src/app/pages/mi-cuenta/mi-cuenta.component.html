@@ -1,0 +1,9 @@
+<h2>Mi cuenta</h2>
+<div class="log">
+<section>
+    <input [(ngModel)]="password" placeholder="password" type="password"><br>
+    <input [(ngModel)]="password2" placeholder="repeat-password" type="password"><br>
+    <button (click)="modificarLogin()" class="btn btn-primary">Acceder</button>
+    <div>{{mensajePass}}</div>
+</section>
+</div>

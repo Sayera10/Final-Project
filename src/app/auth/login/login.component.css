@@ -1,0 +1,33 @@
+.log {
+    text-align: center;
+   margin: 30px;
+}
+
+input {
+    margin: 10px;
+    border: 2px solid var(--color-secondary);
+    
+}
+h2{
+    font-size: 45px;
+    font-family: serif;
+}
+
+.btn {
+    padding: 10px 12px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+.btn-primary {
+    color: var(--color-background);
+    background-color: blue;
+
+}
+
+.btn-primary:disabled {
+    opacity: 0.7;
+    
+}

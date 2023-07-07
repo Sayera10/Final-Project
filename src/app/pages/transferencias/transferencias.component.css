@@ -1,0 +1,12 @@
+button{
+    display: block;
+    margin: 30px;
+    padding: 20px;
+    background-color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+
+.top{
+    text-align: center;
+}

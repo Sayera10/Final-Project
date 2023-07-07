@@ -1,0 +1,21 @@
+<div class="top">
+<h2>Transferencias enviadas</h2>
+</div>
+<!-- <app-table-transferencias [transferencias]="transferencias"></app-table-transferencias> -->
+<div class="align">
+
+ <div class="fila-tabla  cabecera-tabla"> 
+    <div class="top">Concepto</div>
+    <div class="top">importe</div>
+    <div class="top">Fecha</div>
+</div> 
+<div class="border">
+<article class="fila-tabla" *ngFor="let transferencia of transferencias">
+    
+    <div>{{ transferencia.concepto }}</div><hr>
+
+    <div>{{ transferencia.importe | currency:'EUR' }}</div><hr>
+    <div>{{ transferencia.fecha | date:'short' }}</div>
+</article> 
+   </div>  
+</div>

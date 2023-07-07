@@ -1,0 +1,9 @@
+<div class="details">
+<section>
+    <input [(ngModel)] ="nuevaTransferencia.beneficiario.id" placeholder="Id-Beneficiario" type="number"><br>
+    <input [(ngModel)]="nuevaTransferencia.importe" placeholder="Import" type="number"><br>
+    <input [(ngModel)]="nuevaTransferencia.concepto" placeholder="Concept" type="text"><br>
+    <button (click)="enviarTransferencia()" class="btn btn-primary">Confirm</button>
+    <p>{{feedback}}</p>
+</section>
+</div>

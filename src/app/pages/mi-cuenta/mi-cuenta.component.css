@@ -1,0 +1,10 @@
+
+.log,h2{
+    text-align: center;
+}
+
+
+input {
+    margin: 10px;
+    border: 2px solid var(--color-secondary);
+}

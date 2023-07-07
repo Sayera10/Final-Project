@@ -1,0 +1,17 @@
+.fila-tabla{
+    display: flex;
+    gap: 16px;
+      text-align: center;
+}
+.fila-tabla > div {
+    width: 50%;
+   
+}
+
+.cabecera-tabla{
+    font-weight: bold;
+    text-transform:uppercase ;
+  
+   
+   
+}

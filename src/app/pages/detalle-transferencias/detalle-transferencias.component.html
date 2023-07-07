@@ -1,0 +1,7 @@
+
+<div class="border " *ngIf="transferencia">
+<p>Transferencia de {{ transferencia.ordenante.usuario}}</p>
+<p>Para {{ transferencia.beneficiario.usuario}} </p>
+<p>Import: {{ transferencia.importe | currency: "EUR"}}</p>
+<p>Realiza en {{ transferencia.fecha | date: 'short'}} </p>
+ </div>
